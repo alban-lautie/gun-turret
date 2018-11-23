@@ -18,4 +18,4 @@ I'm printed with Alfawise U20
 
 In the projet, you will find a directory 'arduino' for Arduino code and a directory 'electron' for application code.
 
-Docs for application install and configuration is [here]()
+Docs for application install and configuration is [here](https://www.thingiverse.com/thing:1787731)

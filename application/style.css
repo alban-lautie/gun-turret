@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #34495e;
+}
+
+.nerf-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  position: relative;
+  height: 420px;
+  width: 420px;
+  margin-top: 80px;
+}
+
+.nerf-app .direction-button {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 100px 100px 100px;
+  border-color: transparent transparent #e74c3c transparent;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nerf-app .direction-button.direction-button-top {
+  top: 0;
+  left: 110px;
+}
+
+.nerf-app .direction-button.direction-button-bottom {
+  bottom: 0px;
+  left: 110px;
+  transform: rotate(180deg);
+}
+
+.nerf-app .direction-button.direction-button-left {
+  top: 160px;
+  left: -50px;
+  transform: rotate(270deg);
+}
+
+.nerf-app .direction-button.direction-button-right {
+  top: 160px;
+  right: -50px;
+  transform: rotate(90deg);
+}
+
+.shoot-button {
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 75px);
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  outline: none;
+  border: none;
+  background-color: #c0392b;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.activate {
+  background-color: #3498db;
+  border-color: transparent transparent #3498db transparent;
+}

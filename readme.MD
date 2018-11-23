@@ -16,6 +16,6 @@ I'm printed with Alfawise U20
 
 ## Code
 
-In the projet, you will find a directory 'arduino' for Arduino code and a directory 'electron' for application code.
+In the projet, you will find a directory 'arduino' for Arduino code and a directory 'application' for application code.
 
 Docs for application install and configuration is [here]()

@@ -1,0 +1,8 @@
+# NPM
+node_modules
+
+# Custom
+/dist
+/release-builds
+.DS_Store
+/.DS_Store
